@@ -1,51 +1,123 @@
-# mcp-learning-path
-An AI-powered learning path generator using LangChain, Streamlit,Python,youtube api,Google Drive Api and Google APIs.
-Learning Path Generator with Model Context Protocol (MCP)
-This project is a Streamlit-based web application that generates personalized learning paths using the Model Context Protocol (MCP). It integrates with various services including YouTube, Google Drive, and Notion to create comprehensive learning experiences.
+# 🚀 Learning Path Generator with Model Context Protocol (MCP)
 
-Features
-🎯 Generate personalized learning paths based on your goals
-🎥 Integration with YouTube for video content
-📁 Google Drive integration for document storage
-📝 Notion integration for note-taking and organization
-🚀 Real-time progress tracking
-🎨 User-friendly Streamlit interface
-Prerequisites
-Python 3.10+
-Google ai Studio API Key
-Pipedream URLs for integrations (YouTube and either Drive or Notion)
-Installation
-Clone the repository:
+This project is a **Streamlit-based web application** that generates personalized learning paths using the **Model Context Protocol (MCP)**. It integrates seamlessly with platforms like **YouTube**, **Google Drive**, and **Notion** to deliver a well-rounded and dynamic learning experience.
 
+---
+
+## ✨ Features
+
+- 🎯 Generate **personalized learning paths** based on your goals
+- 🎥 Integration with **YouTube** for curated video content
+- 📁 **Google Drive** integration for storing documents
+- 📝 **Notion** integration for note-taking and planning
+- 📊 **Real-time progress tracking**
+- 🖥️ Intuitive and interactive **Streamlit UI**
+
+---
+
+## ⚙️ Prerequisites
+
+- Python **3.10+**
+- A **Google AI Studio API Key**
+- Active **Pipedream webhook URLs** for integrations:
+  - YouTube (required)
+  - Google Drive **or** Notion
+
+---
+
+## 🛠️ Installation
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/PITTIHARSHAVARDHAN/mcp-learning-path.git
+cd mcp-learning-path
 Create and activate a virtual environment:
 
-Install the required packages:
+bash
+Copy
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install the dependencies:
 
+bash
+Copy
 pip install -r requirements.txt
-Configuration
-Before running the application, you'll need to set up:
+🔧 Configuration
+Before running the app, make sure to configure the following:
 
-Google API Key
-Pipedream URLs for:
-YouTube (required)
-Google Drive or Notion (based on your preference)
-Running the Application
+Your Google AI Studio API key
+
+Pipedream webhook URLs for:
+
+✅ YouTube (Required)
+
+✅ Google Drive or Notion (Choose one)
+
+You’ll enter these details through the Streamlit sidebar when the app is running.
+
+🚀 Running the Application
 To start the application, run:
 
+bash
+Copy
 streamlit run app.py
-The application will be available at http://localhost:8501 by default.
+The app will open in your browser at: http://localhost:8501
 
-Usage
-Enter your Google ai studio API key and Pipedream URLs in the sidebar
-Select your preferred secondary tool (Drive or Notion)
-Enter your learning goal (e.g., "I want to learn python basics in 3 days")
-Click "Generate Learning Path" to create your personalized learning plan
-Project Structure
-app.py - Main Streamlit application
-utils.py - Utility functions and helper methods
-prompt.py - Prompt template
-requirements.txt - Project dependencies
+🧠 Usage
+Open the app in your browser.
 
+Enter your Google AI Studio API key and Pipedream URLs in the sidebar.
+
+Select your preferred integration (Google Drive or Notion).
+
+Type your learning goal, e.g.:
+
+"I want to learn Python basics in 3 days"
+
+Click "Generate Learning Path" to build your customized roadmap!
+
+📁 Project Structure
+bash
+Copy
+.
+├── app.py              # Main Streamlit app
+├── utils.py            # Helper functions
+├── prompt.py           # Prompt templates for the LLM
+├── requirements.txt    # Python dependencies
+├── README.md           # Project documentation
+📌 License
+MIT License (or your choice)
+
+🙌 Contributions
+Contributions, issues, and feature requests are welcome!
+Feel free to open an issue or submit a pull request.
+
+🌐 Live Demo
+Coming soon via Streamlit Community Cloud!
+
+yaml
+Copy
+Edit
+
+---
+
+### ✅ What to do:
+
+1. Copy the content above.
+2. Open your terminal and run:
+   ```bash
+   nano README.md
+Paste the content and save (CTRL+O → Enter → CTRL+X)
+
+Then run:
+
+bash
+Copy
+Edit
+git add README.md
+git commit -m "docs: add full project README"
+git push origin main
 ###   STEPS TO COMPLETE THE PROJECT ##
 Project-5: Learning Path Generator
 Prerequisites:
@@ -92,7 +164,6 @@ Step 2: Clone the Git Hub repo link
 Repo Link: Git Hub repo link
 Click on the “Code” button
   <img width="472" height="329" alt="image" src="https://github.com/user-attachments/assets/7eefef5e-01fd-439a-ab0e-533a81fa784a" />
-<img width="472" height="329" alt="image" src="https://github.com/user-attachments/assets/89d58ddb-7303-4cd9-b747-ea8eb933d3e4" />
 
 
 Click on the “Download ZIP”, it will download a zip file to your downloads
